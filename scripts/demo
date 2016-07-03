@@ -4,4 +4,7 @@
 #
 echo "Total number of command line argument are $#"
 echo "$0 is script name"
-echo "The arguments given are :- $* or $@"
+for var in "$@"
+do
+    echo "$var"
+done

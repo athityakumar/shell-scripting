@@ -1,3 +1,6 @@
-chmod 755 $1
-sudo cp $1 ~/../../bin/
+for file in "$@"
+do
+	chmod 755 $file
+	sudo cp $file ~/../../bin/
+done
 

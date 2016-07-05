@@ -33,6 +33,7 @@ WHAT THESE SCRIPTS DO
 <tr> <th> # </th> <th> Script </th> <th> Work done by the script</th> </tr>
 <tr> <td> (1) </td> <td> ak-add-command </td> <td> Adds the shell-scripts as commands by adding them into the bin/ folder. Requires sudo authentification. </td> </tr>
 <tr> <td> (2) </td> <td> ak-demo </td> <td> A hello-world equivalent for shell-scripting. Prints details about the arguments used along with the command. </td> </tr>
+<tr> <td> (3) </td> <td> ak-cd </td> <td> A script that combines cd & ls commands. Should be run as ". ak-cd path" </td> </tr>
 </table>
 
 CONTRIBUTING

@@ -1,0 +1,4 @@
+a = `git add --all`
+echo a
+`git commit -m "Bot commit"`
+`git push origin master`
